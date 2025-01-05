@@ -1,2 +1,15 @@
-# top5-tiao-carreiro-v2
-Versão 2.0 do projeto Top 5 Tião Carreiro e Pardinho, implementado com Laravel e ReactJS.
+# Top 5 musicas Tião Carreiro & Pardinho
+
+Pagina web que exibe uma lista das 5 musicas mais tocadas da dupla caipira Tião Carreiro e Pardinho e permite que o usuário sugira novas musicas informando um link válido no YouTube.
+
+## Para executar o projeto 
+
+Atenção: Você precisa ter o PHP8.1 instalado em sua máquina com as extensões SQLITE e CURL.
+
+Basta clonar esse repositório e executar o comando abaixo:
+
+```
+php -S localhost:8080 -t public/
+```
+
+<img src="https://github.com/jansenfelipe/top5-tiao-carreiro/blob/master/screenshot.png?raw=true" />
